@@ -1,9 +1,9 @@
-import { gcd, mod, modinverse_un, modinverse } from "./primitives";
+// import { gcd, mod, modinverse_un, modinverse } from "./primitives";
 import { encode, decode } from "./code.ts";
 
 // const PRIME = 65537n
 // const PRIME = 1000000007n
-// const PRIME = 1000000000000066600000000000001n;`
+const PRIME = 1000000000000066600000000000001n;
 const g = 9n;
 
 const a = 8276n;
